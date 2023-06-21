@@ -1,0 +1,51 @@
+.font-color {
+  color: rgb(78, 201, 178);
+}
+.all-project {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+.picture-project {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+}
+.picture-project img {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.picture-project:hover {
+  transition: 1.2s;
+  transform: scale(1.2);
+}
+.name-project {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  display: none;
+}
+.opacity {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.all-project:hover .name-project {
+  display: block;
+  color: white;
+}
+.all-project:hover .opacity {
+  display: block;
+}

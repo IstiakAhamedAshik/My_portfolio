@@ -1,0 +1,30 @@
+.position {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+.talk-btn {
+  background-color: rgb(74, 78, 78);
+  border-radius: 20px;
+}
+.talk-btn:hover {
+  background-color: white;
+  color: black;
+}
+.protfolio-footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer-icon {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid rgb(53, 50, 50);
+  color: white;
+  border-radius: 100%;
+}
+.footer-icon:hover {
+  background-color: white;
+  color: black;
+}

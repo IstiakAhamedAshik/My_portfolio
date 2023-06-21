@@ -1,0 +1,100 @@
+.all-about {
+  margin-top: 60px;
+  margin-left: 15px;
+}
+hr {
+  margin-top: 10px;
+  border: 2px solid azure;
+}
+.personal-info {
+  margin-top: 50px;
+}
+.personal-info h1 {
+  margin-top: 10px;
+}
+.skills {
+  margin-top: 60px;
+}
+.skill-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+  padding: 20px 0px;
+}
+.skill-1 img {
+  width: 60px;
+  height: 60px;
+}
+.my-service {
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+  padding: 30px;
+}
+.my-service img {
+  width: 50px;
+  height: 50px;
+}
+/* credential */
+.more-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.image-profile {
+  width: 350px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+  padding: 30px;
+}
+.image-profile img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.profile-i-con {
+  display: flex;
+  justify-content: center;
+}
+.more-about-icon {
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 100%;
+}
+.about-me {
+  width: 850px;
+}
+.more-about-icon:hover {
+  background-color: white;
+  color: black;
+}
+.more-contact {
+  width: 100%;
+  background-color: darkgray;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 10px 0px;
+  border-radius: 40px;
+}
+@media screen and (max-width: 900px) {
+  .more-about {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .about-me {
+    width: 450px;
+  }
+}

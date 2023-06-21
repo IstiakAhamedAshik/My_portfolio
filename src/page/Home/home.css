@@ -1,0 +1,268 @@
+.div1st-section {
+  margin-top: 100px;
+  margin-left: 15px;
+}
+/*---- h1st-1start---- */
+.h1st-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(24, 24, 24);
+  padding: 30px;
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+}
+.information img {
+  width: 285px;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid rgb(53, 50, 50);
+  border-bottom-right-radius: 45px;
+  border-top-left-radius: 45px;
+}
+.personal-info {
+  margin-left: 20px;
+}
+.personal-info p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.marque {
+  text-align: center;
+  height: 60px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+  margin-left: 19px;
+}
+.credential-project {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  margin-left: 19px;
+}
+.credential {
+  width: 280px;
+  padding: 30px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  position: relative;
+}
+.credential img {
+  padding: 30px;
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+.credential .creden-icon {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 40px;
+  color: rgb(122, 117, 117);
+}
+.credential:hover .creden-icon {
+  color: white;
+}
+.project {
+  width: 280px;
+  padding: 25px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  position: relative;
+  margin-left: 19px;
+}
+.project img {
+  width: 180px;
+  height: 100px;
+  margin-bottom: 7px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.project .project-icon {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 40px;
+  color: rgb(122, 117, 117);
+}
+.project:hover .project-icon {
+  color: white;
+}
+/*--- h1st-1 is end---- */
+
+/*--- h1st-2 is start---- */
+.h1st-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+}
+.service-offer {
+  max-width: 750px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  margin-left: 19px;
+}
+.service-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-icon .s-icon {
+  width: 50px;
+  height: 50px;
+  margin: 54px;
+  color: white;
+}
+.service-info {
+  padding-left: 25px;
+  padding-bottom: 38px;
+  position: relative;
+}
+.service-info .service-icon {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 38px;
+  color: rgb(122, 117, 117);
+}
+.service-offer:hover .service-icon {
+  color: white;
+}
+.profile-browser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+}
+.profile-browser .profile-icon {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid rgb(53, 50, 50);
+  color: white;
+  border-radius: 100%;
+}
+.profile-icon:hover {
+  background-color: white;
+  color: black;
+}
+.credential .blogpic {
+  width: 350px;
+  height: 125px;
+  object-fit: contain;
+}
+/*--- h1st-2 is end---- */
+
+/*--- h1st-3 is start---- */
+
+.h1st-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 19px;
+}
+.experinces {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  padding: 33px;
+}
+.experince {
+  text-align: center;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  padding: 30px;
+  margin-right: 15px;
+}
+.let-work {
+  width: 650px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 30px;
+  position: relative;
+  margin-left: 19px;
+}
+.let-work .let-work-icon {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 38px;
+  color: rgb(122, 117, 117);
+}
+.let-work:hover .let-work-icon {
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .information {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    padding: 30px;
+    border: 1px solid rgb(53, 50, 50);
+    border-radius: 30px;
+  }
+  .marque {
+    text-align: center;
+    height: 60px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(53, 50, 50);
+    border-radius: 25px;
+    margin-top: 19px;
+    margin-left: 0%;
+  }
+  .project {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .credential {
+    margin-left: 15px;
+  }
+  .credential1 {
+    margin-left: 25px;
+  }
+  .service-offer {
+    max-width: 550px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(53, 50, 50);
+    border-radius: 30px;
+    margin-left: 19px;
+    margin-top: 15px;
+  }
+  .let-work {
+    width: 450px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(53, 50, 50);
+    border-radius: 30px;
+    position: relative;
+    margin-left: 19px;
+    margin-top: 15px;
+  }
+  .let-work .let-work-icon {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 38px;
+    color: rgb(122, 117, 117);
+  }
+}

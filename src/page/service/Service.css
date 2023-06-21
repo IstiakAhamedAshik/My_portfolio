@@ -1,0 +1,31 @@
+.all-offering {
+  margin-top: 60px;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.offerings {
+  width: 400px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+}
+.one-offerings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.offering-icon {
+  width: 70px;
+  height: 50px;
+  color: rgb(122, 117, 117);
+}
+.photo {
+  width: 350px;
+  background-color: rgb(24, 24, 24);
+  border: 1px solid rgb(53, 50, 50);
+  border-radius: 25px;
+  padding: 20px;
+}

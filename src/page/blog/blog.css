@@ -1,0 +1,21 @@
+.blog {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+.blog img {
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .blog img {
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
