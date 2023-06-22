@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import imag1 from '../../asset/IMG_1374.jpg'
 import { Link } from 'react-router-dom'
-import { FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa'
+import { FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa'
 import OneSkill from './OneSkill'
 const MoreAbout = () => {
   const experinces = [
@@ -23,7 +23,7 @@ const MoreAbout = () => {
     },
     {
       pacentange: '85%',
-      name: 'HTMl',
+      name: 'HTML',
       des: 'Daily Practing and Improving',
     },
     {
@@ -56,9 +56,24 @@ const MoreAbout = () => {
         </h1>
         <p className='text-center font-bold mt-3'>@istiak97</p>
         <div className='profile-i-con'>
-          <FaTwitter className='more-about-icon'></FaTwitter>
-          <FaInstagram className='more-about-icon'></FaInstagram>
-          <FaFacebookF className='more-about-icon'></FaFacebookF>
+          <Link
+            to='https://www.linkedin.com/in/istiak-ahamed-ashik-612199280/'
+            target='_blank'
+          >
+            <FaLinkedin className='more-about-icon'></FaLinkedin>
+          </Link>
+          <Link
+            to='https://www.facebook.com/profile.php?id=100004646203276'
+            target='_blank'
+          >
+            <FaFacebook className='more-about-icon'></FaFacebook>
+          </Link>
+          <Link
+            to='https://github.com/IstiakAhamedAshik?tab=repositories'
+            target='_blank'
+          >
+            <FaGithub className='more-about-icon'></FaGithub>
+          </Link>
         </div>
         <Link to='/contact'>
           <button className='more-contact'>Contact Me</button>
